@@ -15,4 +15,5 @@ Reusable components for the Arduino Uno.
 keywords = ["avr", "arduino", "uno"]
 
 [dependencies.core]
-path = "../libcore"
+git = "https://github.com/gergoerdi/rust-avr-libcore-mini"
+rev = "adda44a"
